@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
             <footer className="bg-black text-white p-4">
               <div className="container mx-auto">
                 <div className="flex justify-between items-center">
-                <h1 className="text-4xl"><span className="flex items-center gap-1 font-bold"><Logo size={36}/>AGILE</span></h1>
+                <h1 className="text-4xl"><span className="flex items-center gap-1 font-bold"><Logo/></span></h1>
                 <h1 className="text-sm">© 2025 Agile. All rights reserved.</h1>
                 </div>
               </div>

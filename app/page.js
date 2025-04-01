@@ -16,6 +16,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import CompanyCarousel from "@/components/company-carousel";
+// import Logo from "@/components/logo";
 
 const faqs = [
   {
@@ -81,6 +82,7 @@ export default function Home() {
           <span className="flex mx-auto gap-3 sm:gap-4 items-center">
             with
             <h1 className="bg-gradient-to-t from-black bg-blue-900 text-white px-5 rounded">AGILE</h1>
+            {/* <Logo/> */}
           </span>
         </h1>
         <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
