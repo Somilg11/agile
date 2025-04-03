@@ -1,4 +1,4 @@
-# 🚀 Agile - The Ultimate Work Management Platform
+# Agile - The Ultimate WorkFlow Management Platform
 
 ![Next.js](https://img.shields.io/badge/Next.js-14.2.14-black?style=for-the-badge&logo=next.js)  
 ![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)  
@@ -105,8 +105,4 @@ We welcome contributions! 🚀
 ## ⚡ License
 
 This project is licensed under the **MIT License**.
-
----
-
-Made with ❤️ by **Somil Gupta** & Contributors 🚀
 
