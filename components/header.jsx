@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 import { SignedIn, SignedOut, SignInButton } from "@clerk/nextjs";
 import UserMenu from "./user-menu";
-import { PenBox } from "lucide-react";
+import { GithubIcon, PenBox } from "lucide-react";
 import { checkUser } from "@/lib/checkUser";
 import UserLoading from "./user-loading";
 import Logo from "./logo";
@@ -22,12 +22,21 @@ async function Header() {
           </h1>
         </Link>
         <div className="flex items-center gap-4">
+
+          <a href="https://github.com/Somilg11/agile" target="_blank" rel="noopener noreferrer">
+            <Button variant="outline" className="flex items-center gap-2">
+              <GithubIcon size={18} />
+              <span className="hidden md:inline">GitHub</span>
+            </Button>
+          </a>
+
           <Link href="/project/create">
             <Button variant="destructive" className="flex items-center gap-2">
               <PenBox size={18} />
               <span className="hidden md:inline">Create Project</span>
             </Button>
           </Link>
+
           <SignedOut>
             <SignInButton forceRedirectUrl="/onboarding">
               <Button variant="outline">Login</Button>
@@ -36,6 +45,7 @@ async function Header() {
           <SignedIn>
             <UserMenu />
           </SignedIn>
+
         </div>
       </nav>
 

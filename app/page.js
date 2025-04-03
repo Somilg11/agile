@@ -81,7 +81,7 @@ export default function Home() {
           Streamline Your Workflow <br />
           <span className="flex mx-auto gap-3 sm:gap-4 items-center">
             with
-            <h1 className="bg-white text-black pr-5 border-r-8 border-blue-600 tracking-tighter font-mono">AGILE</h1>
+            <h1 className="bg-zinc-900 text-white pr-5 border-r-8 border-blue-600 tracking-tighter font-mono">AGILE</h1>
             {/* <Logo/> */}
           </span>
         </h1>
@@ -90,7 +90,7 @@ export default function Home() {
         </p>
         <p className="text-xl mb-12 max-w-2xl mx-auto"></p>
         <Link href="/onboarding">
-          <Button size="lg" className="mr-4">
+          <Button size="lg" className="mr-4 font-bold">
             Get Started <ChevronRight size={18} className="ml-1" />
           </Button>
         </Link>
@@ -159,7 +159,7 @@ export default function Home() {
             projects and boost productivity.
           </p>
           <Link href="/onboarding">
-            <Button size="lg" className="animate-bounce">
+            <Button size="lg" className="animate-bounce font-bold">
               Start For Free <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </Link>
