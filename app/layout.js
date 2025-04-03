@@ -5,11 +5,12 @@ import Logo from "@/components/logo";
 import Header from "@/components/header";
 import { ClerkProvider } from "@clerk/nextjs";
 import { shadesOfPurple } from "@clerk/themes";
+import { Toaster } from "@/components/ui/sonner";
 
 const inter = Inter({subsets: ["latin"]});
 
 export const metadata = {
-  title: "Agile",
+  title: "AGILE",
   description: "Workflow management tool",
 };
 
@@ -42,6 +43,7 @@ export default function RootLayout({ children }) {
             enableSystem
             disableTransitionOnChange
           >
+            <Toaster richColors/>
             {/* header  */}
             <Header/>
             {/* main  */}

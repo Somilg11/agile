@@ -52,6 +52,7 @@ export default function CreateProjectPage() {
 
   useEffect(() => {
     if (project) router.push(`/project/${project.id}`);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loading]);
 
   if (!isOrgLoaded || !isUserLoaded) {

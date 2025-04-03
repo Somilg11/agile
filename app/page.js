@@ -81,11 +81,11 @@ export default function Home() {
           Streamline Your Workflow <br />
           <span className="flex mx-auto gap-3 sm:gap-4 items-center">
             with
-            <h1 className="bg-gradient-to-t from-black bg-blue-900 text-white px-5 rounded">AGILE</h1>
+            <h1 className="bg-white text-black pr-5 border-r-8 border-blue-600 tracking-tighter font-mono">AGILE</h1>
             {/* <Logo/> */}
           </span>
         </h1>
-        <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
+        <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto font-mono">
           Empower your team with our intuitive project management solution.
         </p>
         <p className="text-xl mb-12 max-w-2xl mx-auto"></p>
